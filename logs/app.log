@@ -1,2 +1,10 @@
-{"level":30,"time":1757332352256,"pid":31532,"hostname":"SELNK1350300471","msg":"createEntry called with name=Erik, email=erik@example.com, created_at=2025-09-08T11:52:32.255Z"}
-{"level":30,"time":1757332352257,"pid":31532,"hostname":"SELNK1350300471","email":"erik@example.com","created_at":"2025-09-08T11:52:32.255Z","msg":"Duplicate entry detected"}
+{"level":30,"time":1757333476332,"pid":11856,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice, email=a@example.com, created_at=2025-09-08T12:11:16.331Z"}
+{"level":30,"time":1757333476340,"pid":11856,"hostname":"SELNK1350300471","id":1,"name":"Alice","email":"a@example.com","created_at":"2025-09-08T12:11:16.331Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333476347,"pid":11856,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice2, email=a@example.com, created_at=2025-09-08T12:11:16.347Z"}
+{"level":30,"time":1757333476348,"pid":11856,"hostname":"SELNK1350300471","email":"a@example.com","created_at":"2025-09-08T12:11:16.347Z","msg":"Duplicate entry detected"}
+{"level":30,"time":1757333476360,"pid":11856,"hostname":"SELNK1350300471","msg":"drawWinner called at 2100-01-01T00:00:00.000Z"}
+{"level":40,"time":1757333476361,"pid":11856,"hostname":"SELNK1350300471","msg":"No participants found for draw"}
+{"level":30,"time":1757333476366,"pid":11856,"hostname":"SELNK1350300471","msg":"createEntry called with name=Bob, email=b@example.com, created_at=2025-09-08T12:11:16.366Z"}
+{"level":30,"time":1757333476372,"pid":11856,"hostname":"SELNK1350300471","id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:11:16.366Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333476377,"pid":11856,"hostname":"SELNK1350300471","msg":"drawWinner called at 2025-09-08T12:11:16.377Z"}
+{"level":30,"time":1757333476386,"pid":11856,"hostname":"SELNK1350300471","winner":{"id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:11:16.366Z"},"drawn_at":"2025-09-08T12:11:16.377Z","msg":"Winner drawn"}
