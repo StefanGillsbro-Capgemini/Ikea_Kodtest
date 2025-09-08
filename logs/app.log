@@ -8,3 +8,43 @@
 {"level":30,"time":1757333476372,"pid":11856,"hostname":"SELNK1350300471","id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:11:16.366Z","msg":"Entry successfully created"}
 {"level":30,"time":1757333476377,"pid":11856,"hostname":"SELNK1350300471","msg":"drawWinner called at 2025-09-08T12:11:16.377Z"}
 {"level":30,"time":1757333476386,"pid":11856,"hostname":"SELNK1350300471","winner":{"id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:11:16.366Z"},"drawn_at":"2025-09-08T12:11:16.377Z","msg":"Winner drawn"}
+{"level":30,"time":1757333760523,"pid":2368,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice, email=a@example.com, created_at=2025-09-08T12:16:00.522Z"}
+{"level":30,"time":1757333760531,"pid":2368,"hostname":"SELNK1350300471","id":1,"name":"Alice","email":"a@example.com","created_at":"2025-09-08T12:16:00.522Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333760538,"pid":2368,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice2, email=a@example.com, created_at=2025-09-08T12:16:00.538Z"}
+{"level":30,"time":1757333760538,"pid":2368,"hostname":"SELNK1350300471","email":"a@example.com","created_at":"2025-09-08T12:16:00.538Z","msg":"Duplicate entry detected"}
+{"level":30,"time":1757333760547,"pid":2368,"hostname":"SELNK1350300471","msg":"drawWinner called at 2100-01-01T00:00:00.000Z"}
+{"level":40,"time":1757333760548,"pid":2368,"hostname":"SELNK1350300471","msg":"No participants found for draw"}
+{"level":30,"time":1757333760552,"pid":2368,"hostname":"SELNK1350300471","msg":"createEntry called with name=Bob, email=b@example.com, created_at=2025-09-08T12:16:00.552Z"}
+{"level":30,"time":1757333760558,"pid":2368,"hostname":"SELNK1350300471","id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:16:00.552Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333760562,"pid":2368,"hostname":"SELNK1350300471","msg":"drawWinner called at 2025-09-08T12:16:00.562Z"}
+{"level":30,"time":1757333760568,"pid":2368,"hostname":"SELNK1350300471","winner":{"id":1,"name":"Alice","email":"a@example.com","created_at":"2025-09-08T12:16:00.522Z"},"drawn_at":"2025-09-08T12:16:00.562Z","msg":"Winner drawn"}
+{"level":30,"time":1757333836328,"pid":20672,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice, email=a@example.com, created_at=2025-09-08T12:17:16.327Z"}
+{"level":30,"time":1757333836337,"pid":20672,"hostname":"SELNK1350300471","id":1,"name":"Alice","email":"a@example.com","created_at":"2025-09-08T12:17:16.327Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333836345,"pid":20672,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice2, email=a@example.com, created_at=2025-09-08T12:17:16.345Z"}
+{"level":30,"time":1757333836345,"pid":20672,"hostname":"SELNK1350300471","email":"a@example.com","created_at":"2025-09-08T12:17:16.345Z","msg":"Duplicate entry detected"}
+{"level":30,"time":1757333836353,"pid":20672,"hostname":"SELNK1350300471","msg":"drawWinner called at 2100-01-01T00:00:00.000Z"}
+{"level":40,"time":1757333836353,"pid":20672,"hostname":"SELNK1350300471","msg":"No participants found for draw"}
+{"level":30,"time":1757333836358,"pid":20672,"hostname":"SELNK1350300471","msg":"createEntry called with name=Bob, email=b@example.com, created_at=2025-09-08T12:17:16.358Z"}
+{"level":30,"time":1757333836363,"pid":20672,"hostname":"SELNK1350300471","id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:17:16.358Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333836367,"pid":20672,"hostname":"SELNK1350300471","msg":"drawWinner called at 2025-09-08T12:17:16.367Z"}
+{"level":30,"time":1757333836374,"pid":20672,"hostname":"SELNK1350300471","winner":{"id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:17:16.358Z"},"drawn_at":"2025-09-08T12:17:16.367Z","msg":"Winner drawn"}
+{"level":30,"time":1757333917686,"pid":34140,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice, email=a@example.com, created_at=2025-09-08T12:18:37.685Z"}
+{"level":30,"time":1757333917696,"pid":34140,"hostname":"SELNK1350300471","id":1,"name":"Alice","email":"a@example.com","created_at":"2025-09-08T12:18:37.685Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333917702,"pid":34140,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice2, email=a@example.com, created_at=2025-09-08T12:18:37.702Z"}
+{"level":30,"time":1757333917703,"pid":34140,"hostname":"SELNK1350300471","email":"a@example.com","created_at":"2025-09-08T12:18:37.702Z","msg":"Duplicate entry detected"}
+{"level":30,"time":1757333917711,"pid":34140,"hostname":"SELNK1350300471","msg":"drawWinner called at 2100-01-01T00:00:00.000Z"}
+{"level":40,"time":1757333917712,"pid":34140,"hostname":"SELNK1350300471","msg":"No participants found for draw"}
+{"level":30,"time":1757333917715,"pid":34140,"hostname":"SELNK1350300471","msg":"createEntry called with name=Bob, email=b@example.com, created_at=2025-09-08T12:18:37.715Z"}
+{"level":30,"time":1757333917722,"pid":34140,"hostname":"SELNK1350300471","id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:18:37.715Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333917726,"pid":34140,"hostname":"SELNK1350300471","msg":"drawWinner called at 2025-09-08T12:18:37.726Z"}
+{"level":30,"time":1757333917731,"pid":34140,"hostname":"SELNK1350300471","winner":{"id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:18:37.715Z"},"drawn_at":"2025-09-08T12:18:37.726Z","msg":"Winner drawn"}
+{"level":30,"time":1757333956798,"pid":29656,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice, email=a@example.com, created_at=2025-09-08T12:19:16.796Z"}
+{"level":30,"time":1757333956807,"pid":29656,"hostname":"SELNK1350300471","id":1,"name":"Alice","email":"a@example.com","created_at":"2025-09-08T12:19:16.796Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333956813,"pid":29656,"hostname":"SELNK1350300471","msg":"createEntry called with name=Alice2, email=a@example.com, created_at=2025-09-08T12:19:16.813Z"}
+{"level":30,"time":1757333956814,"pid":29656,"hostname":"SELNK1350300471","email":"a@example.com","created_at":"2025-09-08T12:19:16.813Z","msg":"Duplicate entry detected"}
+{"level":30,"time":1757333956819,"pid":29656,"hostname":"SELNK1350300471","msg":"drawWinner called at 2100-01-01T00:00:00.000Z"}
+{"level":40,"time":1757333956819,"pid":29656,"hostname":"SELNK1350300471","msg":"No participants found for draw"}
+{"level":30,"time":1757333956823,"pid":29656,"hostname":"SELNK1350300471","msg":"createEntry called with name=Bob, email=b@example.com, created_at=2025-09-08T12:19:16.823Z"}
+{"level":30,"time":1757333956829,"pid":29656,"hostname":"SELNK1350300471","id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:19:16.823Z","msg":"Entry successfully created"}
+{"level":30,"time":1757333956832,"pid":29656,"hostname":"SELNK1350300471","msg":"drawWinner called at 2025-09-08T12:19:16.832Z"}
+{"level":30,"time":1757333956837,"pid":29656,"hostname":"SELNK1350300471","winner":{"id":2,"name":"Bob","email":"b@example.com","created_at":"2025-09-08T12:19:16.823Z"},"drawn_at":"2025-09-08T12:19:16.832Z","msg":"Winner drawn"}

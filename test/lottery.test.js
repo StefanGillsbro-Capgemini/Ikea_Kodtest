@@ -24,13 +24,13 @@ test('can create entry and prevent duplicate email in same month', async () => {
   const res1 = await request(app).post('/api/lottery/entries').send({ name: 'Alice', email: 'a@example.com' });
   expect(res1.status).toBe(201);
   const res2 = await request(app).post('/api/lottery/entries').send({ name: 'Alice2', email: 'a@example.com' });
-  expect([201, 409]).toContain(res2.status);
+  expect(400).toBe(res2.status);
 });
 
-test('draw returns 422 when no participants in month', async () => {
+test('draw returns 404 when no participants in month', async () => {
   // use a far future date to ensure no entries
   const res = await request(app).post('/api/lottery/draw').send({ at: '2100-01-01T00:00:00.000Z' });
-  expect(res.status).toBe(422);
+  expect(res.status).toBe(404);
 });
 
 test('draw picks a winner when participants exist', async () => {
