@@ -1,0 +1,28 @@
+{
+  "name": "ikea-lottery",
+  "version": "0.1.0",
+  "description": "Small lottery system for technical test (Node.js + Express + SQLite)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand",
+    "lint": "echo 'no lint configured'"
+  },
+  "author": "Candidate",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pino": "^9.9.4",
+    "pino-pretty": "^13.1.1",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.4"
+  }
+}

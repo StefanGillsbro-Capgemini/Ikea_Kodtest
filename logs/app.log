@@ -1,0 +1,2 @@
+{"level":30,"time":1757332352256,"pid":31532,"hostname":"SELNK1350300471","msg":"createEntry called with name=Erik, email=erik@example.com, created_at=2025-09-08T11:52:32.255Z"}
+{"level":30,"time":1757332352257,"pid":31532,"hostname":"SELNK1350300471","email":"erik@example.com","created_at":"2025-09-08T11:52:32.255Z","msg":"Duplicate entry detected"}

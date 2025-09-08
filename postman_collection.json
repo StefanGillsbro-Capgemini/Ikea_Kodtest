@@ -1,0 +1,100 @@
+{
+  "info": {
+    "name": "Ikea Lottery API",
+    "_postman_id": "1a2b3c4d-ikea-lottery",
+    "description": "Collection to test the Lottery API endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Lottery",
+      "item": [
+        {
+          "name": "Create Entry",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Alice\",\n  \"email\": \"alice@example.com\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/lottery/entries",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","lottery","entries"]
+            }
+          }
+        },
+        {
+          "name": "List Entries",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/lottery/entries",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","lottery","entries"]
+            }
+          }
+        },
+        {
+          "name": "Draw Winner (now)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/lottery/draw",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","lottery","draw"]
+            }
+          }
+        },
+        {
+          "name": "Draw Winner (specific date)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"at\": \"2100-01-01T00:00:00.000Z\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/lottery/draw",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","lottery","draw"]
+            }
+          }
+        },
+        {
+          "name": "List Winners",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/lottery/winners",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","lottery","winners"]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000",
+      "type": "string"
+    }
+  ]
+}
